@@ -1,0 +1,2 @@
+# SafeCrypt
+php crypt safe
