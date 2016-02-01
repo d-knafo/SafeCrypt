@@ -26,7 +26,7 @@
 	
 	/******************************************************************/
 	/*                   How to use                                   */
-	/*		 	$sting     = "test !";                                */
-	/*			$encrypt   = SafeCrypt::encrypt($sting);              */
+	/*		 	$string     = "test !";                               */
+	/*			$encrypt   = SafeCrypt::encrypt($string);             */
 	/*			$decrypt   = SafeCrypt::decrypt($encrypt);            */
 	/******************************************************************/
