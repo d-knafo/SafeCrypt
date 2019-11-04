@@ -1,8 +1,9 @@
 <?php
 	class SafeCrypt {
-		private static $cipher  = MCRYPT_RIJNDAEL_128;          // Algorithme use for encrypte
-		private static $key     = 'key';                        // string
-		private static $mode    = 'str';                        // string
+		
+		private static $cipher = MCRYPT_RIJNDAEL_128;          // Algorithme use for encrypte
+		private static $key    = 'key';                        // string
+		private static $mode   = 'str';                        // string
 		
 		public static function encrypt($data) {
 			$keyHash = md5(self::$key);
